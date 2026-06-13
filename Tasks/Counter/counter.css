@@ -1,0 +1,41 @@
+body{
+    background-color: #f3f0f0;
+    font-family: "Abril Fatface", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+*{
+    margin: 10px;
+    padding: 10px;
+}
+button{
+    padding: 15px;
+    font-size: 20px;
+    background-color: #060606;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #fbfafc;
+    border: 1px solid black;
+    color: black;
+}
+div{
+    border: 0px solid black;
+    border-radius: 5px;
+    background-color: #fcf9f9;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+p{
+    font-size: 40px;
+    font-weight: bold;
+}
+hr{
+    padding: 0 !important;
+}
