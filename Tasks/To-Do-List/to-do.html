@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="to-do.css">
+</head>
+<body>
+    <div class="main">
+        <center>
+            <div class="todo-list">
+                <h1>To Do List</h1><hr>
+                <button type="submit" onclick = add_task()>Add Task</button>
+                <button type="submit" onclick = view_task()>View Task</button>
+                <button style="padding: 10px 16px;" type= "submit" onclick = delete_task()>Delete Task</button>
+
+                <section id = "add_task">
+                    <form action="">
+                        <input id = "Task_name" type="text" placeholder="Enter your task">
+                        <input onclick="Add(event)" type="submit" value="ADD">
+                    </form>
+                </section>
+
+                <div class="view_task" id="view_task">
+                    <hr>
+                </div>
+
+                <section id = "delete_task">
+                    <form action="">
+                        <input id = "Delete_task" type="text" placeholder="Enter task to delete">
+                        <input onclick="Delete(event)" type="submit" value="🗑️">
+                    </form>
+                </section>
+            </div>
+        </center>
+    </div>
+    
+</body>
+<script src = "to-do.js"></script>
+</html>
