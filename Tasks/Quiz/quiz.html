@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="main">
+            <div class="quiz">
+                <p>
+                    <em id="Question"></em>
+                </p><hr>
+                <form id="last_finish" action="">
+
+                <input type="radio" name="answer" id="option1">
+                <label for="option1" id="option1_label"></label><br><hr>
+
+                <input type="radio" name="answer" id="option2">
+                <label for="option2" id="option2_label"></label><br><hr>
+
+                <input type="radio" name="answer" id="option3">
+                <label for="option3" id="option3_label"></label><br><hr>
+
+                <input type="radio" name="answer" id="option4">
+                <label for="option4" id="option4_label"></label><br><hr>
+
+                <p id="correct_or_not"></p>
+
+                <input onclick="answers(event)" type="submit" value="Next">
+
+                </form>
+
+
+            </div>
+    </div>
+</body>
+<script src="quiz.js"></script>
+</html>
